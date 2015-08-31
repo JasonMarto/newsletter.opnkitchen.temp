@@ -1,0 +1,127 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  /*position: relative;*/
+  /*min-height: 100%;*/
+}
+body, html {
+  /* Margin bottom by footer height */
+  /*margin-bottom: 100px;*/
+  height: 100%
+}
+
+body, i{
+    color: #6d5c5c;
+}
+h3{
+  color: #e31650;
+}
+
+
+.media-body h2{
+  margin-top: -20px;
+  font-family: 'Leckerli One', cursive;
+}
+
+h3, h4, #form, .footer{
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Wrapper*/
+#wrapper {
+  min-height: 80%;
+  background: #f0ede7;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
+
+#wrapper h3{
+  margin-top: -20px;
+  font-family: 'Leckerli One', cursive;
+}
+
+#wrapper h4{
+  font-weight: bold;
+  margin-top: 50px;
+}
+.logo {
+  margin-left: -60px;
+}
+.photos {
+  padding-top: 0;
+}
+
+#idphoto {
+  width: 155px;
+  padding: 0;
+  margin: -160px 0 0 -50px;
+}
+
+#idlogo {
+  width: 700px;
+}
+
+/*form */
+#form{
+  background: #e31650;
+  margin-top: 30px;
+}
+
+#form .panel-body{
+  padding-bottom: 50px;
+}
+
+#form h4{
+  color: #fff;
+}
+
+#form .form-control {
+  border-radius: 0 !important;
+}
+
+#form .form-group {
+  padding-right: 0;
+}
+
+
+
+
+
+
+
+/* row social icons */
+#social-row {
+  background: #dbdbd9;
+  padding:30px 0;
+  line-height: normal;
+}
+
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+.fa-inverse {
+  color: #f0ede7 !important;
+}
+
+
+/* footer */ 
+
+.footer {
+  /*position: absolute;*/
+  bottom: 0;
+  background-color: #c6c6c4;
+  color:#f0ede7;
+  height: 5%
+}
+
+.footer p{
+  margin: 10px 0px;
+}
